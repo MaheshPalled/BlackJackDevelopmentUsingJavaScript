@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="/BlackJack.css" />
+</head>
+<body>
+ <form id="flexForm">
+    <h1>Welcome to Black Jack game</h1>
+    <div id="DealerCards">
+            <h2> Dealer Cards</h2>
+            <div id="dealerCardsList">
+            </div>
+    </div>
+    <div id="PlayerCards">
+        <h2 id="welcomePlayer"> Player Cards</h2>
+        <div id="playerCardsList">
+        </div>
+    </div>
+    <div>
+            <button onclick="playAGame(); this.disabled=true;" id ="gameButtons">Play a game</button>
+            <button onclick="hit()" id ="hitButtons">Hit</button>
+            <button onclick="finalResult()" id ="dealButton">Deal!</button>
+            <button onclick="window.location.reload();" id ="resetButtons">Reset</button>
+    </div>
+    <script src="BlackJack.js"></script>
+ </form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+
+form{
+    background:radial-gradient(yellow,darkgreen);
+    color: black;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    flex-direction: column;
+    border: 1px solid greenyellow;
+}
+
+#dealerCard, #playerCard{
+    display: inline-block;
+    border: 1px solid black;
+    width:80px;
+    height: 120px;
+    border-radius: 5px;
+    margin: 15px;
+    background: white;
+    padding: 5px;
+}
+button{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: larger;
+    text-align: center;
+    justify-content: space-around;
+    flex-flow: wrap;
+    align-items: center;
+    margin: 10px;
+}
+#hiddenCard{
+    background: radial-gradient(blue, purple);
+    display: inline-block;
+    border: 1px solid black;
+    width:80px;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 5px;
+}
+
+#playerCardsList, #dealerCardsList{
+    display: inline-block;
+    width: auto;
+}
+
+button:hover{
+    border: 2px solid black;
+}
+
+
+#gameButtons{
+    background: yellowgreen;
+}
+#hitButtons{
+    background: yellowgreen;
+}
+#resetButtons{
+    background: yellowgreen;
+}
+#dealButton{
+    background: yellowgreen;
+}
+
+img{
+    border: 1px solid black;
+    border-radius: 10px;
+}
